@@ -5,6 +5,7 @@
                 <p>CHOOSE A COURSE TO GET STARTED</p>
                 <h2>Latest Featured Courses</h2>
             </div>
+            <!-- sfruttare dati per modificare lo style: background img -->
             <div class="course-container">
                 <div class="course">
                     <div class="image"></div>
@@ -85,47 +86,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/variables.scss';
-
-    .component {
-        background-color: #f5f7fa;
-        padding: 50px 0;
-
-        .container {
-            width: $c-width;
-            margin: 0 auto;
-
-            .text {
-                text-align: center;
-                margin-bottom: 50px;
-            }
-
-            .course-container {
-                display: flex;
-                flex-wrap: wrap;
-
-                .course {
-                    width: 50%;
-                    height: 150px;
-                    padding: 10px;
-                    display: flex;
-                    align-items: center;
-
-                    .image {
-                        height: 100%;
-                        width: 130px;
-                        border-radius: 50%;
-                        background-image: url('../assets/course-02-480x298.jpg');
-                        background-size: cover;
-                        margin-right: 20px;
-                    }
-                }
-            }
-
-            .button {
-                text-align: center;
-                margin-top: 30px;
-            }
-        }
-    }
+    @import '../style/mainpartthree.scss';
 </style>

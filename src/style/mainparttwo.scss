@@ -1,0 +1,35 @@
+@import '../style/variables.scss';
+
+.container {
+    width: $c-width;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .first-column {
+            margin-right: 25px;
+        }
+
+        .second-column {
+            margin-top: 50px;
+        }
+
+            .text-block {
+                width: 250px;
+                height: 350px;
+                margin-bottom: 25px;
+            }
+    }
+
+    .right-side {
+        align-self: center;
+        margin-right: 100px;
+    }
+}

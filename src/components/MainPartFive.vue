@@ -45,35 +45,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/variables.scss';
-
-    .component {
-        background-color: #f8f8f8;
-        padding: 50px;
-
-        .container {
-            width: $c-width;
-            margin: 0 auto;
-
-            .text {
-                text-align: center;
-                margin-bottom: 20px;
-            }
-
-            .blogs-container {
-                display: flex;
-                justify-content: space-between;
-
-                .blog {
-                    width: calc((100% - 60px) / 3);
-                    margin: 10px 0;
-
-                    img {
-                        max-width: 100%;
-                    }
-                }
-            }
-
-        }
-    }
+    @import '../style/mainpartfive.scss';
 </style>

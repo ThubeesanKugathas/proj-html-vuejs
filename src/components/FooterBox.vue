@@ -52,48 +52,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/variables.scss';
-    @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
-
-    footer {
-        background-color: $grey-one;
-        position: relative;
-        padding: 50px;
-
-        .container {
-            width: $c-width;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-
-            .right-side {
-                
-                >ul {
-                    display: flex;
-
-                    .explore {
-                        display: flex;
-                        flex-wrap: wrap;
-
-                        li {
-                            width: 50%;
-                        }
-                    }
-                }
-            }
-
-        }
-
-        p {
-            text-align: center;
-        }
-
-        .freccia {
-            position: absolute;
-            right: 20px;
-            bottom: 20px;
-            transform: translate(-50% -50%);
-        }
-    }
-
+    @import '../style/footerbox.scss';
 </style>
