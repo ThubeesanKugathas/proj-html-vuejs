@@ -57,7 +57,6 @@ export default {
 
     footer {
         background-color: $grey-one;
-        margin-top: 200px;
         position: relative;
         padding: 50px;
 
