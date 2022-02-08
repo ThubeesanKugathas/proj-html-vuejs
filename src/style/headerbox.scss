@@ -1,0 +1,48 @@
+@import '../style/variables.scss';
+
+header {
+    background-color: #1f2154;
+    height: 450px;
+
+    .container {
+        width: $c-width;
+        margin: 0 auto;
+
+        .header-title {
+            text-align: center;
+            padding: 30px 0;
+            color: #fff;
+
+            p {
+                margin: 15px 0;
+            }
+
+            .header-button {
+                padding: 15px 30px;
+                background-color: $green;
+                display: inline-block;
+            }
+        }
+
+        .header-images {
+            margin-top: 50px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            overflow-y: hidden;
+            
+            img {
+                height: 100%;
+            }
+
+            #center-image {
+                border: 10px solid #fff;
+                border-radius: 10px;
+            }
+
+            #right-image {
+                margin-top: 150px;
+            }
+        }
+    }
+}

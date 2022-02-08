@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box />
+    <header-box :navList="this.navbarList" :logoString="this.navbarLogo"/>
     <main-box />
     <footer-box />
   </div>
@@ -17,6 +17,20 @@ export default {
     HeaderBox,
     MainBox,
     FooterBox,
+  },
+  data() {
+    return {
+      // header data
+      navbarList: [
+        'Home',
+        'Pages',
+        'Courses',
+        'Features',
+        'Blog',
+        'Shop',
+      ],
+      navbarLogo: 'light-logo'
+    }
   }
 }
 </script>
