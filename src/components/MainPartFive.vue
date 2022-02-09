@@ -6,32 +6,14 @@
                 <h2>Latest on <span>Our Blogs</span></h2>
             </div>
             <div class="blogs-container">
-                <div class="blog">
-                    <img src="../assets/artist-blog-01-480x325.jpeg" alt="artist blog 01">
-                    <p>ARTIST</p>
-                    <h3>Brush Stroke Energize Trees in Paiting</h3>
+                <div v-for="(blog, i) in blogs" :key="i" class="blog">
+                    <img :src="`/mainblog/${blog.thumbnail}`" :alt="blog.thumbnail">
+                    <p>{{blog.author}}</p>
+                    <h3>{{blog.title}}</h3>
                     <i class="far fa-calendar"></i>
-                    <span>May 15, 2020</span>
+                    <span>{{blog.date}}</span>
                     <i class="far fa-eye"></i>
-                    <span>688 views</span>
-                </div>
-                <div class="blog">
-                    <img src="../assets/artist-blog-01-480x325.jpeg" alt="artist blog 01">
-                    <p>ARTIST</p>
-                    <h3>Brush Stroke Energize Trees in Paiting</h3>
-                    <i class="far fa-calendar"></i>
-                    <span>May 15, 2020</span>
-                    <i class="far fa-eye"></i>
-                    <span>688 views</span>
-                </div>
-                <div class="blog">
-                    <img src="../assets/artist-blog-01-480x325.jpeg" alt="artist blog 01">
-                    <p>ARTIST</p>
-                    <h3>Brush Stroke Energize Trees in Paiting</h3>
-                    <i class="far fa-calendar"></i>
-                    <span>May 15, 2020</span>
-                    <i class="far fa-eye"></i>
-                    <span>688 views</span>
+                    <span>{{blog.views}} views</span>
                 </div>
             </div>
         </div>
@@ -40,7 +22,9 @@
 
 <script>
 export default {
-    
+    props: {
+        blogs: Array,
+    }
 }
 </script>
 

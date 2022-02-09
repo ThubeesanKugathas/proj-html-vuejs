@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <header-box :navList="this.navbarList" :logoString="this.navbarLogo"/>
-    <main-box />
+    <main-box :stats="stats"
+      :blogs="blogs"/>
     <footer-box :street="this.addressData.street" 
       :number="this.addressData.number" 
       :email="this.addressData.email"
@@ -54,6 +55,48 @@ export default {
         'Privacy policy',
         'Terms of services'
       ],
+      // main data
+      stats: [
+        {
+          data: 'FINISHED SESSIONS',
+          number: '1.926'
+        },
+        {
+          data: 'ENROLLED LEARNERS',
+          number: '3.092+'
+        },
+        {
+          data: 'ONLINE INSTRUCTORS',
+          number: '200'
+        },
+        {
+          data: 'SATISFACTION RATE',
+          number: '100%'
+        },
+      ],
+      blogs: [
+        {
+          thumbnail: 'artist-blog-01-480x325.jpeg',
+          author: 'ARTIST',
+          title: 'Brush Strokes Energize Trees in Paintings',
+          date: 'May 15, 2020',
+          views: 688
+        },
+        {
+          thumbnail: 'artist-blog-02-480x325.jpg',
+          author: 'ARTIST',
+          title: 'Pocket-Sized Notebooks Hold Miniature Paintings',
+          date: 'May 15, 2020',
+          views: 603
+        },
+        {
+          thumbnail: 'artist-blog-03-480x325.jpg',
+          author: 'ARTIST',
+          title: 'Connection Between Self-Portrait and Identity',
+          date: 'May 15, 2020',
+          views: 397
+        },
+      ]
     }
   }
 }

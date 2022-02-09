@@ -12,24 +12,9 @@
             </div>
 
             <div class="text-blocks-container">
-                <div class="text-block">
-                    <h2>1.926</h2>
-                    <p>FINISHED SESSIONS</p>
-                </div>
-
-                <div class="text-block">
-                    <h2>1.926</h2>
-                    <p>FINISHED SESSIONS</p>
-                </div>
-
-                <div class="text-block">
-                    <h2>1.926</h2>
-                    <p>FINISHED SESSIONS</p>
-                </div>
-
-                <div class="text-block">
-                    <h2>1.926</h2>
-                    <p>FINISHED SESSIONS</p>
+                <div v-for="(stat, i) in stats" :key="i" class="text-block">
+                    <h2>{{stat.number}}</h2>
+                    <p>{{stat.data}}</p>
                 </div>
             </div>
         </div>
@@ -38,10 +23,12 @@
 
 <script>
 export default {
-    
+    props: {
+        stats: Array,
+    }
 }
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/main/mainpartone.scss'
+    @import '../style/main/mainpartone.scss';
 </style>

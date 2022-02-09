@@ -1,10 +1,10 @@
 <template>
     <main>
-        <main-part-one />
+        <main-part-one :stats="stats"/>
         <main-part-two />
         <main-part-three />
         <main-part-four />
-        <main-part-five />
+        <main-part-five :blogs="blogs"/>
         <main-part-six />
         <main-part-seven />
     </main>
@@ -28,6 +28,10 @@ export default {
         MainPartFive,
         MainPartSix,
         MainPartSeven,
+    },
+    props: {
+        stats: Array,
+        blogs: Array,
     }
 }
 </script>
