@@ -11,11 +11,41 @@ footer {
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        
+        // common style ----------------
+        ul {
+            list-style: none;
+        }
 
+        li {
+            margin-top: 15px;
+        }
+
+
+        .section {
+            ul {
+                li {
+                    color: #888;
+                    font-size: 15px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #888;
+                    
+                    i {
+                        margin-top: 20px;
+                        margin-right: 30px;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+
+        // right part of the links ----------------------
         .right-side {
             
             >ul {
-                display: flex;
 
                 .explore {
                     display: flex;
@@ -25,19 +55,37 @@ footer {
                         width: 50%;
                     }
                 }
+
+                a {
+                    text-decoration: none;
+                    color: #888;
+                }
             }
         }
-
     }
 
+    // copyright styling ----------------------
     p {
         text-align: center;
+        color: #888;
+        margin-top: 50px;
+        font-size: 13px;
     }
 
+    // arrow styling ---------------------
     .freccia {
         position: absolute;
         right: 20px;
         bottom: 20px;
         transform: translate(-50% -50%);
+        background-color: $green;
+        padding: 10px 15px;
+        border-radius: 50%;
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+        }
     }
 }
