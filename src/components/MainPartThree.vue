@@ -3,7 +3,7 @@
         <div class="container">
             <div class="text">
                 <p>CHOOSE A COURSE TO GET STARTED</p>
-                <h2>Latest Featured Courses</h2>
+                <h2>Latest Featured <span>Courses</span></h2>
             </div>
             <!-- sfruttare dati per modificare lo style: background img -->
             <div class="course-container">
@@ -74,7 +74,12 @@
                     </div>
                 </div>
             </div>
-            <div class="button">View all courses</div>
+            <div class="button-text">
+                <div class="button">
+                    View all courses
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
         </div>
     </div>
 </template>
