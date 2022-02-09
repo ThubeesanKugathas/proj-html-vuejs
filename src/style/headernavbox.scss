@@ -1,0 +1,40 @@
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 15px 0;
+
+    img {
+        height: 50%;
+    }
+
+    .right-side {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        font-size: 15px;
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                color: #fff;
+                margin: 0 10px;
+            }
+        }
+
+        i {
+            color: #fff;
+            margin-right: 20px;
+        }
+
+        input {
+            height: 70%;
+            border-radius: 5px;
+        }
+    }
+}

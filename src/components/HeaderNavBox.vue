@@ -23,19 +23,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .right-side {
-            display: flex;
-
-            ul {
-                display: flex;
-            }
-        }
-    }
+    @import '../style/headernavbox.scss'
 </style>
