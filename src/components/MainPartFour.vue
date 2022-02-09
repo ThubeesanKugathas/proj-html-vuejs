@@ -1,10 +1,14 @@
 <template>
     <div class="component">
         <div class="container">
-            <h2>Why People Talk About MaxCoach?</h2>
+            <h2>Why People Talk About <span>MaxCoach</span>?</h2>
             <!-- sfruttare dati per modificare :style background img -->
             <div class="review">
-                <img src="../assets/testimonial-avata-02.jpg" alt="testimonial avatar">
+                <div class="img-box">
+                    <div id="brown-dot"></div>
+                    <img id="avatar" src="../assets/testimonial-avata-02.jpg" alt="testimonial avatar">
+                    <img id="green-dots" src="../assets/maxcoach-shape-05-100x100.png" alt="shape 05">
+                </div>
                 <div class="right-side">
                     <p>
                         I am free to learn at my own pace, follow <br/>

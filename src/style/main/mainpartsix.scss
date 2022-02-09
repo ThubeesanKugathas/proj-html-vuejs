@@ -3,7 +3,8 @@
 .component {
     background: rgb(238,238,238);
     background: linear-gradient(0deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%);
-    padding: 50px;
+    padding: 50px 0 0;
+    height: 905px;
 
     .container {
         width: $c-width;
@@ -12,6 +13,21 @@
         .text {
             text-align: center;
             margin-bottom: 20px;
+
+            p {
+                color: #888;
+                font-size: 15px;
+            }
+
+            h2 {
+                font-size: 40px;
+                margin: 20px 0 60px;
+
+                span {
+                    color: $green;
+                    font-weight: lighter;
+                }
+            }
         }
 
         .help-container {
@@ -21,6 +37,19 @@
             .help {
                 width: calc((100% - 80px) / 4);
                 margin: 10px 0;
+
+                i {
+                    font-size: 40px;
+                }
+
+                h3 {
+                    margin: 20px 0;
+                }
+
+                p {
+                    color: #888;
+                    line-height: 30px;
+                }
             }
         }
 

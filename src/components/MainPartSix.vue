@@ -3,7 +3,7 @@
         <div class="container">
             <div class="text">
                 <p>WANNA TRASFORM YOUR LIFE?</p>
-                <h2>Glad to Help You Learn</h2>
+                <h2>Glad to <span>Help You</span> Learn</h2>
             </div>
             <div class="help-container">
                 <div class="help">

@@ -21,7 +21,7 @@ export default {
 
     .container {
         width: $c-width;
-        margin: 0 auto;
+        margin: 50px auto 0;
         padding: 50px;
 
         .text {
