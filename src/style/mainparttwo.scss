@@ -21,15 +21,67 @@
             margin-top: 50px;
         }
 
-            .text-block {
-                width: 250px;
-                height: 350px;
-                margin-bottom: 25px;
+        .text-block {
+            width: 270px;
+            height: 350px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 10px #ddd;
+
+            h2 {
+                color: #3f3a64;
+                font-weight: bold;
+                font-size: 18px;
             }
+
+            p {
+                margin-top: 10px;
+                color: #888;
+                line-height: 24px;
+                font-size: 18px;
+            }
+        }
     }
 
     .right-side {
         align-self: center;
         margin-right: 100px;
+
+        p {
+            color: #888;
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin: 20px 0 30px;
+            span {
+                color: $green;
+            }
+        }
+
+        ul {
+            list-style: none;
+            
+            li {
+                color: #666;
+                margin: 20px 0;
+
+                i {
+                    color: $green;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .button {
+            background-color: $green;
+            color: #fff;
+            padding: 15px 40px;
+            display: inline-block;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
     }
 }

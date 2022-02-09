@@ -41,13 +41,13 @@
             <div class="right-side">
                 <p>TOGETHER WE CAN CREATE</p>
                 <h2>
-                    Services We Can Provide For My Clients.
+                    Services <span>We <br/> Can</span> Provide For My <br/> Clients.
                 </h2>
                 <ul>
-                    <li>Select & customize courses o your preferences</li>
-                    <li>Change the tutor and make arrangements</li>
-                    <li>Participate in events to join others</li>
-                    <li>Get the desired certificate delivered at house</li>
+                    <li><i class="fas fa-check"></i>Select & customize courses o your preferences</li>
+                    <li><i class="fas fa-check"></i>Change the tutor and make arrangements</li>
+                    <li><i class="fas fa-check"></i>Participate in events to join others</li>
+                    <li><i class="fas fa-check"></i>Get the desired certificate delivered at house</li>
                 </ul>
                 <div class="button">Get started for free</div>
             </div>
