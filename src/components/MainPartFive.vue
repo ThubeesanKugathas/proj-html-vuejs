@@ -45,5 +45,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/mainpartfive.scss';
+    @import '../style/main/mainpartfive.scss';
 </style>

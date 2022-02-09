@@ -91,5 +91,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/mainpartthree.scss';
+    @import '../style/main/mainpartthree.scss';
 </style>

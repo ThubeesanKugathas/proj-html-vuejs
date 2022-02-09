@@ -34,5 +34,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/mainpartfour.scss';
+    @import '../style/main/mainpartfour.scss';
 </style>
