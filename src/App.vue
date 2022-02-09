@@ -175,5 +175,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import './style/app.scss'
+  @import './style/app.scss';
 </style>

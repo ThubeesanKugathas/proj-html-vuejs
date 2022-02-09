@@ -6,7 +6,7 @@
                     <div class="text-block">
                         <h2>Graphic Design</h2>
                         <p>
-                            Have passion fro graphics and arts? Show your talent with confidence and self-assertiveness.
+                            Have passion for graphics and arts? Show your talent with confidence and self-assertiveness.
                         </p>
                         <img src="../assets/home-6-service-image-01.png" alt="home service 01">
                     </div>
