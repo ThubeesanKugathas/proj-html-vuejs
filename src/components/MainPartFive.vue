@@ -5,6 +5,7 @@
                 <p> ENJOY READING ON MAXCOACH</p>
                 <h2>Latest on <span>Our Blogs</span></h2>
             </div>
+            <!-- single blog in v-for -->
             <div class="blogs-container">
                 <div v-for="(blog, i) in blogs" :key="i" class="blog">
                     <img :src="`/mainblog/${blog.thumbnail}`" :alt="blog.thumbnail">

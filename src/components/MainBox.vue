@@ -1,11 +1,18 @@
 <template>
     <main>
+        <!-- stats data -->
         <main-part-one :stats="stats"/>
+        <!-- main information -->
         <main-part-two />
+        <!-- latest courses -->
         <main-part-three :courses="courses"/>
+        <!-- reviews and sponsor/clients -->
         <main-part-four :sponsors="sponsors"/>
+        <!-- blogs from artists -->
         <main-part-five :blogs="blogs"/>
+        <!-- help new infos -->
         <main-part-six />
+        <!-- last advice + button -->
         <main-part-seven />
     </main>
 </template>

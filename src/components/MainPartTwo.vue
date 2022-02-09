@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- main infos -->
         <div class="container">
             <div class="left-side">
                 <div class="first-column">

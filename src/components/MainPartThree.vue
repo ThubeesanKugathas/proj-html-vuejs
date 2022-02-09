@@ -5,7 +5,7 @@
                 <p>CHOOSE A COURSE TO GET STARTED</p>
                 <h2>Latest Featured <span>Courses</span></h2>
             </div>
-            <!-- sfruttare dati per modificare lo style: background img -->
+            <!-- single course in v-for -->
             <div class="course-container">
                 <div v-for="(course, i) in courses" :key="i" class="course">
                     <div class="image" :style="{ backgroundImage: `url(/maincourses/${course.course_image})`}"></div>

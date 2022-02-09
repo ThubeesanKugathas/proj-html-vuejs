@@ -12,6 +12,7 @@
             </div>
 
             <div class="text-blocks-container">
+                <!-- single stat in v-for -->
                 <div v-for="(stat, i) in stats" :key="i" class="text-block">
                     <h2>{{stat.number}}</h2>
                     <p>{{stat.data}}</p>

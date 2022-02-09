@@ -5,6 +5,7 @@
                 <p>WANNA TRASFORM YOUR LIFE?</p>
                 <h2>Glad to <span>Help You</span> Learn</h2>
             </div>
+            <!-- helping informations -->
             <div class="help-container">
                 <div class="help">
                     <i class="far fa-flag"></i>

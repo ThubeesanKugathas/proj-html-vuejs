@@ -2,7 +2,7 @@
     <div class="component">
         <div class="container">
             <h2>Why People Talk About <span>MaxCoach</span>?</h2>
-            <!-- sfruttare dati per modificare :style background img -->
+            <!-- main review -->
             <div class="review">
                 <div class="img-box">
                     <div id="brown-dot"></div>
@@ -19,6 +19,7 @@
                     <p>/Freelancer</p>
                 </div>
             </div>
+            <!-- single sponsor in v-for -->
             <div class="sponsor-container">
                 <div class="sponsor" 
                     v-for="sponsor in sponsors" 

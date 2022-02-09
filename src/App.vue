@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <header-box :navList="this.navbarList" :logoString="this.navbarLogo"/>
+    <header-box :navList="this.navbarList" 
+      :logoString="this.navbarLogo"/>
+
     <main-box :stats="stats"
       :blogs="blogs"
       :courses="courses"
       :sponsors="sponsors"/>
+
     <footer-box :street="this.addressData.street" 
       :number="this.addressData.number" 
       :email="this.addressData.email"
@@ -57,7 +60,8 @@ export default {
         'Privacy policy',
         'Terms of services'
       ],
-      // main data
+      // main data -------------------------------
+      // part one stats data
       stats: [
         {
           data: 'FINISHED SESSIONS',
@@ -76,29 +80,7 @@ export default {
           number: '100%'
         },
       ],
-      blogs: [
-        {
-          thumbnail: 'artist-blog-01-480x325.jpeg',
-          author: 'ARTIST',
-          title: 'Brush Strokes Energize Trees in Paintings',
-          date: 'May 15, 2020',
-          views: 688
-        },
-        {
-          thumbnail: 'artist-blog-02-480x325.jpg',
-          author: 'ARTIST',
-          title: 'Pocket-Sized Notebooks Hold Miniature Paintings',
-          date: 'May 15, 2020',
-          views: 603
-        },
-        {
-          thumbnail: 'artist-blog-03-480x325.jpg',
-          author: 'ARTIST',
-          title: 'Connection Between Self-Portrait and Identity',
-          date: 'May 15, 2020',
-          views: 397
-        },
-      ],
+      // part three courses data
       courses: [
         {
           price: '$40.00',
@@ -143,6 +125,7 @@ export default {
           course_image: 'stock-full-hd-05-480x298.jpg'
         },
       ],
+      // part four sponsor/client data
       sponsors: [
         {
           name: 'AQUA',
@@ -167,6 +150,30 @@ export default {
         {
           name: 'SixBase',
           client_image: 'client-logo-colored-06.png'
+        },
+      ],
+      // part five blogs data
+      blogs: [
+        {
+          thumbnail: 'artist-blog-01-480x325.jpeg',
+          author: 'ARTIST',
+          title: 'Brush Strokes Energize Trees in Paintings',
+          date: 'May 15, 2020',
+          views: 688
+        },
+        {
+          thumbnail: 'artist-blog-02-480x325.jpg',
+          author: 'ARTIST',
+          title: 'Pocket-Sized Notebooks Hold Miniature Paintings',
+          date: 'May 15, 2020',
+          views: 603
+        },
+        {
+          thumbnail: 'artist-blog-03-480x325.jpg',
+          author: 'ARTIST',
+          title: 'Connection Between Self-Portrait and Identity',
+          date: 'May 15, 2020',
+          views: 397
         },
       ],
     }

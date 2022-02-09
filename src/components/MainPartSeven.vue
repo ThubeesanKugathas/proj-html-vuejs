@@ -1,6 +1,7 @@
 <template>
     <div class="component">
         <div class="container">
+            <!-- final raccomandation -->
             <div class="text">
                 <p>Start today for getting <span>Online Certification</span></p>
                 <h2>You can be your own guiding star with our help!</h2>
