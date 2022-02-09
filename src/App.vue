@@ -2,7 +2,9 @@
   <div id="app">
     <header-box :navList="this.navbarList" :logoString="this.navbarLogo"/>
     <main-box :stats="stats"
-      :blogs="blogs"/>
+      :blogs="blogs"
+      :courses="courses"
+      :sponsors="sponsors"/>
     <footer-box :street="this.addressData.street" 
       :number="this.addressData.number" 
       :email="this.addressData.email"
@@ -96,7 +98,77 @@ export default {
           date: 'May 15, 2020',
           views: 397
         },
-      ]
+      ],
+      courses: [
+        {
+          price: '$40.00',
+          course_name: 'Learning to Write as a Professional Author',
+          lessons: 20,
+          students: 50,
+          course_image: 'course-02-480x298.jpg'
+        },
+        {
+          price: 'Free',
+          course_name: 'Customer-centric Info-Tech-Strategies',
+          lessons: 24,
+          students: 24,
+          course_image: 'stock-full-hd-03-480x298.jpg'
+        },
+        {
+          price: '$19.00',
+          course_name: 'Open Programming Courses for Everyone: Python',
+          lessons: 17,
+          students: 62,
+          course_image: 'stock-full-hd-04-480x298.jpg'
+        },
+        {
+          price: '$26.00',
+          course_name: 'Academic Listening and Note-taking',
+          lessons: 14,
+          students: 67,
+          course_image: 'stock-full-hd-06-480x298.jpg'
+        },
+        {
+          price: '$39.00',
+          course_name: 'Master jQuery in a Short Periodo of Time',
+          lessons: 6,
+          students: 51,
+          course_image: 'course-featured-image-01-480x298.jpg'
+        },
+        {
+          price: '$59.00',
+          course_name: 'Introduction to Javascript for Beginners',
+          lessons: 14,
+          students: 76,
+          course_image: 'stock-full-hd-05-480x298.jpg'
+        },
+      ],
+      sponsors: [
+        {
+          name: 'AQUA',
+          client_image: 'client-logo-colored-01.png'
+        },
+        {
+          name: 'AdRoll',
+          client_image: 'client-logo-colored-02.png'
+        },
+        {
+          name: 'FireFox',
+          client_image: 'client-logo-colored-03.png'
+        },
+        {
+          name: 'WoodLand',
+          client_image: 'client-logo-colored-04.png'
+        },
+        {
+          name: 'BullFit',
+          client_image: 'client-logo-colored-05.png'
+        },
+        {
+          name: 'SixBase',
+          client_image: 'client-logo-colored-06.png'
+        },
+      ],
     }
   }
 }

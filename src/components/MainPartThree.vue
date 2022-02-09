@@ -7,70 +7,15 @@
             </div>
             <!-- sfruttare dati per modificare lo style: background img -->
             <div class="course-container">
-                <div class="course">
-                    <div class="image"></div>
+                <div v-for="(course, i) in courses" :key="i" class="course">
+                    <div class="image" :style="{ backgroundImage: `url(/maincourses/${course.course_image})`}"></div>
                     <div class="right-side">
-                        <p>$40.00</p>
-                        <p>Learning to Write as a Professional Author</p>
+                        <p>{{course.price}}</p>
+                        <p>{{course.course_name}}</p>
                         <i class="far fa-file-alt"></i>
-                        <span>20 Lessons</span>
+                        <span>{{course.lessons}} Lessons</span>
                         <i class="fas fa-user-alt"></i>
-                        <span>50 Students</span>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="image"></div>
-                    <div class="right-side">
-                        <p>$40.00</p>
-                        <p>Learning to Write as a Professional Author</p>
-                        <i class="far fa-file-alt"></i>
-                        <span>20 Lessons</span>
-                        <i class="fas fa-user-alt"></i>
-                        <span>50 Students</span>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="image"></div>
-                    <div class="right-side">
-                        <p>$40.00</p>
-                        <p>Learning to Write as a Professional Author</p>
-                        <i class="far fa-file-alt"></i>
-                        <span>20 Lessons</span>
-                        <i class="fas fa-user-alt"></i>
-                        <span>50 Students</span>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="image"></div>
-                    <div class="right-side">
-                        <p>$40.00</p>
-                        <p>Learning to Write as a Professional Author</p>
-                        <i class="far fa-file-alt"></i>
-                        <span>20 Lessons</span>
-                        <i class="fas fa-user-alt"></i>
-                        <span>50 Students</span>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="image"></div>
-                    <div class="right-side">
-                        <p>$40.00</p>
-                        <p>Learning to Write as a Professional Author</p>
-                        <i class="far fa-file-alt"></i>
-                        <span>20 Lessons</span>
-                        <i class="fas fa-user-alt"></i>
-                        <span>50 Students</span>
-                    </div>
-                </div>
-                <div class="course">
-                    <div class="image"></div>
-                    <div class="right-side">
-                        <p>$40.00</p>
-                        <p>Learning to Write as a Professional Author</p>
-                        <i class="far fa-file-alt"></i>
-                        <span>20 Lessons</span>
-                        <i class="fas fa-user-alt"></i>
-                        <span>50 Students</span>
+                        <span>{{course.students}} Students</span>
                     </div>
                 </div>
             </div>
@@ -86,7 +31,9 @@
 
 <script>
 export default {
-    
+    props: {
+        courses: Array,
+    }
 }
 </script>
 

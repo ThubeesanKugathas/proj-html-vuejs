@@ -20,12 +20,10 @@
                 </div>
             </div>
             <div class="sponsor-container">
-                <div class="sponsor"></div>
-                <div class="sponsor"></div>
-                <div class="sponsor"></div>
-                <div class="sponsor"></div>
-                <div class="sponsor"></div>
-                <div class="sponsor"></div>
+                <div class="sponsor" 
+                    v-for="sponsor in sponsors" 
+                    :key="sponsor.name" 
+                    :style="{ backgroundImage: `url(/mainsponsors/${sponsor.client_image})`}"></div>
             </div>
         </div>
     </div>
@@ -33,7 +31,9 @@
 
 <script>
 export default {
-    
+    props: {
+        sponsors: Array,
+    }
 }
 </script>
 

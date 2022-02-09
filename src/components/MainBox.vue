@@ -2,8 +2,8 @@
     <main>
         <main-part-one :stats="stats"/>
         <main-part-two />
-        <main-part-three />
-        <main-part-four />
+        <main-part-three :courses="courses"/>
+        <main-part-four :sponsors="sponsors"/>
         <main-part-five :blogs="blogs"/>
         <main-part-six />
         <main-part-seven />
@@ -32,6 +32,8 @@ export default {
     props: {
         stats: Array,
         blogs: Array,
+        courses: Array,
+        sponsors: Array,
     }
 }
 </script>
