@@ -3,7 +3,7 @@
         <div class="container">
             <div class="text">
                 <p> ENJOY READING ON MAXCOACH</p>
-                <h2>Latest on Our Blogs</h2>
+                <h2>Latest on <span>Our Blogs</span></h2>
             </div>
             <div class="blogs-container">
                 <div class="blog">
