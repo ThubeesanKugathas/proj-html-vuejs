@@ -10,7 +10,7 @@
                 <p>FANNIE MORENO</p>
                 <p>/Founder & CEO</p>
             </div>
-
+        
             <div class="u_d-flex u_justify-between text-blocks-container">
                 <!-- single stat in v-for -->
                 <div class="text-block" v-for="(stat, i) in stats" :key="i">
@@ -19,6 +19,7 @@
                 </div>
             </div>
 
+            <!-- colored balls decoration -->
             <div class="u_container u_position-relative u_position-absolute ball-container">
                 <div class="u_radius-50 u_position-absolute ball-one"></div>
                 <div class="u_radius-50 u_position-absolute ball-two"></div>
