@@ -18,13 +18,13 @@
 </template>
 
 <script>
-import MainPartOne from './MainPartOne.vue'
-import MainPartTwo from './MainPartTwo.vue'
-import MainPartThree from './MainPartThree.vue'
-import MainPartFour from './MainPartFour.vue'
-import MainPartFive from './MainPartFive.vue'
-import MainPartSix from './MainPartSix.vue'
-import MainPartSeven from './MainPartSeven.vue'
+import MainPartOne from '../components-main/MainPartOne.vue'
+import MainPartTwo from '../components-main/MainPartTwo.vue'
+import MainPartThree from '../components-main/MainPartThree.vue'
+import MainPartFour from '../components-main/MainPartFour.vue'
+import MainPartFive from '../components-main/MainPartFive.vue'
+import MainPartSix from '../components-main/MainPartSix.vue'
+import MainPartSeven from '../components-main/MainPartSeven.vue'
 
 export default {
     components: {

@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import HeaderNavBox from './HeaderNavBox.vue'
+import HeaderNavBox from '../components-header/HeaderNavBox.vue'
 
 export default {
     components: {
