@@ -1,12 +1,13 @@
 <template>
     <div class="component">
-        <div class="container">
-            <div class="text">
+        <div class="u_container">
+            <div class="u_text-centered text">
                 <p>WANNA TRASFORM YOUR LIFE?</p>
                 <h2>Glad to <span>Help You</span> Learn</h2>
             </div>
+
             <!-- helping informations -->
-            <div class="help-container">
+            <div class="u_d-flex u_justify-between">
                 <div class="help">
                     <i class="far fa-flag"></i>
                     <h3>Idea Discussion</h3>
@@ -36,6 +37,8 @@
                     </p>
                 </div>
             </div>
+
+            <!-- image at bottom center -->
             <img src="../assets/home-6-services-image-1024x411.png" alt="home services image">
         </div>
     </div>

@@ -6,56 +6,46 @@
     padding: 50px 0 0;
     height: 905px;
 
-    .container {
-        width: $c-width;
-        margin: 0 auto;
+    .text {
+        margin-bottom: 20px;
 
-        .text {
-            text-align: center;
-            margin-bottom: 20px;
-
-            p {
-                color: #888;
-                font-size: 15px;
-            }
-
-            h2 {
-                font-size: 40px;
-                margin: 20px 0 60px;
-
-                span {
-                    color: $green;
-                    font-weight: lighter;
-                }
-            }
+        p {
+            color: $grey-two;
+            font-size: 15px;
         }
 
-        .help-container {
-            display: flex;
-            justify-content: space-between;
+        h2 {
+            font-size: 40px;
+            margin: 20px 0 60px;
 
-            .help {
-                width: calc((100% - 80px) / 4);
-                margin: 10px 0;
-
-                i {
-                    font-size: 40px;
-                }
-
-                h3 {
-                    margin: 20px 0;
-                }
-
-                p {
-                    color: #888;
-                    line-height: 30px;
-                }
+            span {
+                color: $green;
+                font-weight: lighter;
             }
         }
+    }
 
-        img {
-            width: 100%;
-            margin-top: 50px;
+    // every help information decoration
+    .help {
+        width: calc((100% - 80px) / 4);
+        margin: 10px 0;
+
+        i {
+            font-size: 40px;
         }
+
+        h3 {
+            margin: 20px 0;
+        }
+
+        p {
+            color: $grey-two;
+            line-height: 30px;
+        }
+    }
+
+    img {
+        width: 100%;
+        margin-top: 50px;
     }
 }
