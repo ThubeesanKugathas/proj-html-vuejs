@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <footer class="u_position-relative">
         <div class="u_container u_d-flex u_justify-between links-container">
             <ul>
                 <!-- left side address section + social icons -->
