@@ -1,14 +1,16 @@
 <template>
     <div class="component">
-        <div class="container">
-            <div class="text">
+        <div class="u_container">
+            <div class="u_text-centered text">
                 <p>CHOOSE A COURSE TO GET STARTED</p>
                 <h2>Latest Featured <span>Courses</span></h2>
             </div>
             <!-- single course in v-for -->
-            <div class="course-container">
-                <div v-for="(course, i) in courses" :key="i" class="course">
-                    <div class="image" :style="{ backgroundImage: `url(/maincourses/${course.course_image})`}"></div>
+            <div class="u_d-flex u_wrap">
+                <div class="u_d-flex u_align-items-center u_pointer course" 
+                    v-for="(course, i) in courses" 
+                    :key="i">
+                    <div class="u_radius-50 image" :style="{ backgroundImage: `url(/maincourses/${course.course_image})`}"></div>
                     <div class="right-side">
                         <p>{{course.price}}</p>
                         <p>{{course.course_name}}</p>
@@ -19,8 +21,9 @@
                     </div>
                 </div>
             </div>
-            <div class="button-text">
-                <div class="button">
+            <!-- button to view all courses -->
+            <div class="u_text-centered">
+                <div class="u_d-inline-block u_pointer button">
                     View all courses
                     <i class="fas fa-arrow-right"></i>
                 </div>
