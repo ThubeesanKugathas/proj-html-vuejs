@@ -6,7 +6,8 @@
     <main-box :stats="stats"
       :blogs="blogs"
       :courses="courses"
-      :sponsors="sponsors"/>
+      :sponsors="sponsors"
+      :helpInfos="helpInfos"/>
 
     <footer-box :street="this.addressData.street" 
       :number="this.addressData.number" 
@@ -174,6 +175,28 @@ export default {
           title: 'Connection Between Self-Portrait and Identity',
           date: 'May 15, 2020',
           views: 397
+        },
+      ],
+      helpInfos: [
+        {
+          icon: 'far fa-flag',
+          title: 'Idea Discussion',
+          info: 'Get teamed up with the specialists who work and teach coding for years at famous universities.',
+        },
+        {
+          icon: 'fas fa-cog',
+          title: 'Web Developer',
+          info: 'Lear to start building a webpage from scratch. You decide your own pace, course and speed.',
+        },
+        {
+          icon: 'far fa-life-ring',
+          title: 'System Administration',
+          info: 'Learnes are encouraged to stude the mechanism and structure of system administration.',
+        },
+        {
+          icon: 'fas fa-desktop',
+          title: 'Graphic Design',
+          info: 'Have passion for graphics and arts? Show your talent with confidence and self-assertiveness.',
         },
       ],
     }

@@ -11,7 +11,7 @@
         <!-- blogs from artists -->
         <main-part-five :blogs="blogs"/>
         <!-- help new infos -->
-        <main-part-six />
+        <main-part-six :infos="helpInfos"/>
         <!-- last advice + button -->
         <main-part-seven />
     </main>
@@ -41,6 +41,7 @@ export default {
         blogs: Array,
         courses: Array,
         sponsors: Array,
+        helpInfos: Array,
     }
 }
 </script>
