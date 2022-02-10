@@ -1,12 +1,12 @@
 <template>
     <div class="component">
-        <div class="container">
-            <div class="text">
+        <div class="u_container">
+            <div class="u_text-centered text">
                 <p> ENJOY READING ON MAXCOACH</p>
                 <h2>Latest on <span>Our Blogs</span></h2>
             </div>
             <!-- single blog in v-for -->
-            <div class="blogs-container">
+            <div class="u_d-flex u_justify-between">
                 <div v-for="(blog, i) in blogs" :key="i" class="blog">
                     <img :src="`/mainblog/${blog.thumbnail}`" :alt="blog.thumbnail">
                     <p>{{blog.author}}</p>
