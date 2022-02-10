@@ -2,17 +2,16 @@
 
 header {
     background-color: #1f2154;
-    position: relative;
-    display: flex;
     height: 550px;
-    
-    .small-box {
-        position: absolute;
+
+    .wave {
         transform: rotate(180deg);
         height: 500px;
-        width: 100%;
+        width: 100%; 
+    }
+    
+    .small-box {
         bottom: 0;
-        display: flex;
         z-index: 3;
 
         .small {
@@ -21,12 +20,7 @@ header {
     }
 
     .medium-box {
-        position: absolute;
-        transform: rotate(180deg);
-        height: 500px;
-        width: 100%;
         bottom: 0;
-        display: flex;
         z-index: 2;
 
         .medium {
@@ -35,12 +29,7 @@ header {
     }
 
     .big-box {
-        position: absolute;
-        transform: rotate(180deg);
-        height: 500px;
-        width: 100%;
         bottom: 0;
-        display: flex;
         z-index: 1;
 
         .big {
@@ -49,14 +38,11 @@ header {
     }
 
     .container {
-        width: $c-width;
-        margin: 0 auto;
         z-index: 1000;
 
         .header-title {
-            text-align: center;
             padding: 30px 0;
-            color: #fff;
+            color: $white;
 
             h2 {
                 font-weight: bold;
@@ -71,24 +57,21 @@ header {
             .header-button {
                 padding: 15px 40px;
                 background-color: $green;
-                display: inline-block;
                 border-radius: 5px;
                 font-size: 12px;
                 font-weight: bold;
-                cursor: pointer;
 
                 &:hover {
                     color: $green;
-                    background-color: #fff;
+                    background-color: $white;
                 }
             }
         }
 
+        // three images in bottom center of HeaderBox
         .header-images {
             margin-top: 50px;
             height: 300px;
-            display: flex;
-            justify-content: center;
             overflow-y: hidden;
             padding-bottom: 10px;
             
@@ -97,7 +80,7 @@ header {
             }
 
             #center-image {
-                border: 10px solid #fff;
+                border: 10px solid $white;
                 border-radius: 10px;
                 box-shadow: 0 0 10px;
             }
@@ -108,22 +91,20 @@ header {
         }
     }
 
+    // icons on right in fixed status
     .icon-fixed {
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-        position: fixed;
         right: 0;
         top: 150px;
-        border-radius: 5px;
-        box-shadow: 0 0 5px #eee;
         z-index: 2000;
+        flex-direction: column;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: $white;
+        box-shadow: 0 0 5px #eee;
 
         i {
             font-size: 15px;
             margin: 10px 0;
-            cursor: pointer;
         }
     }
 }

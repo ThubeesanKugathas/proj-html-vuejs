@@ -1,20 +1,24 @@
 <template>
-    <nav>
+    <nav class="u_d-flex u_justify-between u_align-items-center">
+        <!-- left side logo MaxCoach interchangeable from data (app.vue) -->
         <img :src="`/navbar-logo/${logoString}.png`" alt="logo">
-        <div class="right-side">
-            <ul>
-                <li v-for="(link, index) in navList" :key="index">
+
+        <!-- right side with link and text input -->
+        <div class="u_d-flex u_align-items-center right-side">
+            <ul class="u_d-flex">
+                <li class="u_pointer" 
+                    v-for="(link, index) in navList" :key="index">
                     {{link}}
                     <i class="fas fa-angle-down"></i>
                 </li>
             </ul>
-            <i class="fas fa-shopping-cart">
-                <div class="cart-items">0</div>
+            <i class="u_position-relative fas fa-shopping-cart">
+                <div class="u_position-absolute u_radius-50 cart-items">0</div>
             </i>
             <i class="far fa-user-circle"></i>
-            <div class="input">
+            <div class="u_d-flex u_align-items-center input">
                 <input type="text" placeholder="Search">
-                <i class="fas fa-search"></i>
+                <i class="u_pointer fas fa-search"></i>
             </div>
         </div>
     </nav>

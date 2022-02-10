@@ -1,0 +1,60 @@
+@import '../style/variables.scss';
+
+.u_container {
+    width: $c-width;
+    margin: 0 auto;
+}
+
+// displays
+.u_d-flex {
+    display: flex;
+}
+
+.u_d-inline-block {
+    display: inline-block;
+}
+
+// flex classes
+.u_justify-center {
+    justify-content: center;
+}
+
+.u_justify-between {
+    justify-content: space-between;
+}
+
+.u_align-items-center {
+    align-items: center;
+}
+
+.u_wrap {
+    flex-wrap: wrap;
+}
+
+// position classes 
+.u_position-relative {
+    position: relative;
+}
+
+.u_position-absolute {
+    position: absolute;
+}
+
+.u_position-fixed {
+    position: fixed;
+}
+
+// border radius 50% 
+.u_radius-50 {
+    border-radius: 50%;
+}
+
+// text clasess 
+.u_text-centered {
+    text-align: center;
+}
+
+// cursor 
+.u_pointer {
+    cursor: pointer;
+}

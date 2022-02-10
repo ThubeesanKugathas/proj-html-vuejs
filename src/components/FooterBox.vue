@@ -1,7 +1,8 @@
 <template>
     <footer>
-        <div class="container">
+        <div class="u_container u_d-flex u_justify-between links-container">
             <ul>
+                <!-- left side address section + social icons -->
                 <li class="section"><strong>Address</strong>
                     <ul>
                         <li>{{street}}</li>
@@ -24,10 +25,12 @@
                     </ul>
                 </li>
             </ul>
+
             <div class="right-side">
-                <ul>
+                <ul class="u_d-flex">
+                    <!-- explore section links -->
                     <li class="section"><strong>Explore</strong>
-                        <ul class="explore">
+                        <ul class="u_d-flex u_wrap explore">
                             <li v-for="(link, index) in exploreLinks" :key="index">
                                 <a href="#/">
                                     {{link}}
@@ -35,6 +38,7 @@
                             </li>
                         </ul>
                     </li>
+                    <!-- information section links -->
                     <li class="section"><strong>Information</strong>
                         <ul>
                             <li v-for="(link, index) in informationLinks" :key="index">
@@ -47,11 +51,15 @@
                 </ul>
             </div>
         </div>
-        <p>
+
+        <!-- copyright rights text -->
+        <p class="u_text-centered">
             <i class="far fa-copyright"></i>
             2020 Maxcoach.All Rights Reserved
         </p>
-        <div class="freccia">
+
+        <!-- button to move at the header -->
+        <div class="u_position-absolute u_radius-50 freccia">
             <a href="#">
                 <i class="fas fa-arrow-up"></i>
             </a>
