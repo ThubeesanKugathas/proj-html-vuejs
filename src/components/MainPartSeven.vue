@@ -1,20 +1,21 @@
 <template>
     <div class="component">
-        <div class="container">
+        <div class="u_container container">
             <!-- final raccomandation -->
-            <div class="text">
+            <div class="u_text-centered">
                 <p>Start today for getting <span>Online Certification</span></p>
                 <h2>You can be your own guiding star with our help!</h2>
-                <div class="button">Get started now</div>
+                <div class="u_d-inline-block u_pointer button">Get started now</div>
             </div>
             
-            <div class="ball-container-two">
-                <div class="ball ball-one"></div>
-                <div class="ball ball-two"></div>
-                <div class="ball ball-three"></div>
-                <div class="ball ball-four"></div>
-                <div class="ball ball-five"></div>
-                <div class="ball ball-six"></div>
+            <!-- colored balls -->
+            <div class="u_container u_position-relative u_position-absolute ball-container-two">
+                <div class="u_position-absolute u_radius-50 ball-one"></div>
+                <div class="u_position-absolute u_radius-50 ball-two"></div>
+                <div class="u_position-absolute u_radius-50 ball-three"></div>
+                <div class="u_position-absolute u_radius-50 ball-four"></div>
+                <div class="u_position-absolute u_radius-50 ball-five"></div>
+                <div class="u_position-absolute u_radius-50 ball-six"></div>
             </div>
         </div>
     </div>
