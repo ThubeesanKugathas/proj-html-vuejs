@@ -3,12 +3,19 @@
         <img :src="`/navbar-logo/${logoString}.png`" alt="logo">
         <div class="right-side">
             <ul>
-                <li v-for="(link, index) in navList" :key="index">{{link}}</li>
+                <li v-for="(link, index) in navList" :key="index">
+                    {{link}}
+                    <i class="fas fa-angle-down"></i>
+                </li>
             </ul>
-            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-shopping-cart">
+                <div class="cart-items">0</div>
+            </i>
             <i class="far fa-user-circle"></i>
-            <input type="text" placeholder="Search">
-            <i class="fas fa-search"></i>
+            <div class="input">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search"></i>
+            </div>
         </div>
     </nav>
 </template>
