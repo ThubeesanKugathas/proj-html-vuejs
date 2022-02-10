@@ -24,6 +24,13 @@
                 <img id="center-image" src="../assets/video-screen.png" alt="video-screen">
                 <img id="right-image" src="../assets/home-6-hero-right-person.png" alt="right-person">
             </div>
+        </div>
+
+        <div class="icon-fixed">
+            <i class="fas fa-ruler"></i>
+            <i class="far fa-life-ring"></i>
+            <i class="fas fa-book"></i>
+            <i class="fas fa-shopping-cart"></i>
         </div> 
     </header>
 </template>

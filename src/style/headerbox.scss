@@ -75,6 +75,12 @@ header {
                 border-radius: 5px;
                 font-size: 12px;
                 font-weight: bold;
+                cursor: pointer;
+
+                &:hover {
+                    color: $green;
+                    background-color: #fff;
+                }
             }
         }
 
@@ -99,6 +105,25 @@ header {
             #right-image {
                 margin-top: 150px;
             }
+        }
+    }
+
+    .icon-fixed {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        position: fixed;
+        right: 0;
+        top: 150px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #eee;
+        z-index: 2000;
+
+        i {
+            font-size: 15px;
+            margin: 10px 0;
+            cursor: pointer;
         }
     }
 }

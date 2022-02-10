@@ -49,6 +49,11 @@ export default {
                 margin-top: 30px;
                 border-radius: 5px;
                 font-weight: bold;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #1f2154;
+                }
             }
         }
     }
