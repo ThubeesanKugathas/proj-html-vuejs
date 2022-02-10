@@ -18,6 +18,16 @@
                     <p>{{stat.data}}</p>
                 </div>
             </div>
+
+            <div class="ball-container">
+                <div class="ball ball-one"></div>
+                <div class="ball ball-two"></div>
+                <div class="ball ball-three"></div>
+                <div class="ball ball-four"></div>
+                <div class="ball ball-five"></div>
+                <div class="ball ball-six"></div>
+                <div class="ball ball-seven"></div>
+            </div>
         </div>
     </div>
 </template>
