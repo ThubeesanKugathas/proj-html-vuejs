@@ -30,5 +30,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../style/headernavbox.scss'
+    @import '../style/headernavbox.scss';
+    @import '../style/utility.scss';
 </style>

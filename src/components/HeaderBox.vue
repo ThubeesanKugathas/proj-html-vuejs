@@ -51,4 +51,5 @@ export default {
 
 <style lang="scss" scoped>
     @import '../style/headerbox.scss';
+    @import '../style/utility.scss';
 </style>

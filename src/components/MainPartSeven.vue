@@ -28,4 +28,5 @@ export default {
 
 <style lang="scss" scoped>
     @import '../style/main/mainpartseven.scss';
+    @import '../style/utility.scss';
 </style>

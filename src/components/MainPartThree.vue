@@ -39,4 +39,5 @@ export default {
 
 <style lang="scss" scoped>
     @import '../style/main/mainpartthree.scss';
+    @import '../style/utility.scss';
 </style>

@@ -64,4 +64,5 @@ export default {
 
 <style lang="scss" scoped>
     @import '../style/main/mainparttwo.scss';
+    @import '../style/utility.scss';
 </style>

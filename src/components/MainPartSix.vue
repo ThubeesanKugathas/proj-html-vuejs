@@ -49,4 +49,5 @@ export default {
 
 <style lang="scss" scoped>
     @import '../style/main/mainpartsix.scss';
+    @import '../style/utility.scss';
 </style>
