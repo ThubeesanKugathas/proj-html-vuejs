@@ -18,7 +18,7 @@
                         my own shedule and choose the subject I <br/>
                         like. Great study portal for people like me.
                     </p>
-                    <p>MINA HOLLACE</p>
+                    <p><strong>MINA HOLLACE</strong></p>
                     <p>/Freelancer</p>
                 </div>
             </div>

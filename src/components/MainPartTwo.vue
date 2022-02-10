@@ -28,14 +28,14 @@
                     <div class="text-block">
                         <h2>Business Administration</h2>
                         <p>
-                            Learnes are encouraged to stude the mechanism and structure of system administration.
+                            Learnes are encouraged to study the mechanism and structure of system administration.
                         </p>
                         <img src="../assets/home-6-service-image-03.png" alt="home service 03">
                     </div>
 
                     <div class="text-block">
                         <img src="../assets/home-6-service-image-04.png" alt="home service 04">
-                        <h2>Web Developer</h2>
+                        <h2>Web Development</h2>
                         <p>
                             Lear to start building a webpage from scratch. You decide your own pace, course and speed.
                         </p>

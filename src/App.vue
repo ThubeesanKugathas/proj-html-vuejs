@@ -185,13 +185,13 @@ export default {
         },
         {
           icon: 'fas fa-cog',
-          title: 'Web Developer',
+          title: 'Web Development',
           info: 'Lear to start building a webpage from scratch. You decide your own pace, course and speed.',
         },
         {
           icon: 'far fa-life-ring',
           title: 'System Administration',
-          info: 'Learnes are encouraged to stude the mechanism and structure of system administration.',
+          info: 'Learnes are encouraged to study the mechanism and structure of system administration.',
         },
         {
           icon: 'fas fa-desktop',

@@ -17,7 +17,7 @@
             </i>
             <i class="far fa-user-circle"></i>
             <div class="u_d-flex u_align-items-center input">
-                <input type="text" placeholder="Search">
+                <input type="text" placeholder="Search...">
                 <i class="u_pointer fas fa-search"></i>
             </div>
         </div>
