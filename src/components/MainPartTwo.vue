@@ -1,8 +1,10 @@
 <template>
     <div>
         <!-- main infos -->
-        <div class="container">
-            <div class="left-side">
+        <div class="u_container u_d-flex u_justify-between container">
+            <div class="u_d-flex u_justify-between u_wrap left-side">
+
+                <!-- first column of information block -->
                 <div class="first-column">
                     <div class="text-block">
                         <h2>Graphic Design</h2>
@@ -21,6 +23,7 @@
                     </div>
                 </div>
 
+                <!-- second column of information block -->
                 <div class="second-column">
                     <div class="text-block">
                         <h2>Business Administration</h2>
@@ -39,6 +42,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- right side with checked information + button -->
             <div class="right-side">
                 <p>TOGETHER WE CAN CREATE</p>
                 <h2>
@@ -50,7 +55,7 @@
                     <li><i class="fas fa-check"></i>Participate in events to join others</li>
                     <li><i class="fas fa-check"></i>Get the desired certificate delivered at house</li>
                 </ul>
-                <div class="button">Get started for free</div>
+                <div class="u_d-inline-block u_pointer button">Get started for free</div>
             </div>
         </div>
     </div>

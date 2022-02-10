@@ -1,19 +1,12 @@
 @import '../style/variables.scss';
 
 .container {
-    width: $c-width;
-    margin: 0 auto;
     padding: 50px 0;
-    display: flex;
-    justify-content: space-between;
     background-image: url('../assets/background-pattern-grid-line.png');
 
     .left-side {
         height: 800px;
-        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
 
         .first-column {
             margin-right: 25px;
@@ -29,7 +22,7 @@
             padding: 20px;
             margin-bottom: 25px;
             box-shadow: 0 0 10px #ddd;
-            background-color: #fff;
+            background-color: $white;
 
             h2 {
                 color: #3f3a64;
@@ -39,7 +32,7 @@
 
             p {
                 margin-top: 10px;
-                color: #888;
+                color: $grey-two;
                 line-height: 24px;
                 font-size: 18px;
             }
@@ -51,7 +44,7 @@
         margin-right: 100px;
 
         p {
-            color: #888;
+            color: $grey-two;
             font-size: 15px;
         }
 
@@ -79,13 +72,11 @@
 
         .button {
             background-color: $green;
-            color: #fff;
+            color: $white;
             padding: 15px 40px;
-            display: inline-block;
             font-weight: bold;
             border-radius: 5px;
             margin-top: 30px;
-            cursor: pointer;
 
             &:hover {
                 background-color: #1f2154;
