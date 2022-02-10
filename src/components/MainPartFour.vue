@@ -1,14 +1,17 @@
 <template>
     <div class="component">
-        <div class="container">
-            <h2>Why People Talk About <span>MaxCoach</span>?</h2>
+        <div class="u_container">
+            <h2 class="u_text-centered">Why People Talk About <span>MaxCoach</span>?</h2>
+
             <!-- main review -->
-            <div class="review">
-                <div class="img-box">
-                    <div id="brown-dot"></div>
-                    <img id="avatar" src="../assets/testimonial-avata-02.jpg" alt="testimonial avatar">
-                    <img id="green-dots" src="../assets/maxcoach-shape-05-100x100.png" alt="shape 05">
+            <div class="u_d-flex u_justify-center u_align-items-center review">
+                <!-- avatar decoration with position -->
+                <div class="u_position-relative img-box">
+                    <div id="brown-dot" class="u_position-absolute u_radius-50"></div>
+                    <img id="avatar" class="u_position-absolute u_radius-50" src="../assets/testimonial-avata-02.jpg" alt="testimonial avatar">
+                    <img id="green-dots" class="u_position-absolute" src="../assets/maxcoach-shape-05-100x100.png" alt="shape 05">
                 </div>
+                <!-- text review -->
                 <div class="right-side">
                     <p>
                         I am free to learn at my own pace, follow <br/>
@@ -19,8 +22,9 @@
                     <p>/Freelancer</p>
                 </div>
             </div>
+            
             <!-- single sponsor in v-for -->
-            <div class="sponsor-container">
+            <div class="u_d-flex u_justify-center sponsor-container">
                 <div class="sponsor" 
                     v-for="sponsor in sponsors" 
                     :key="sponsor.name" 

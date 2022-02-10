@@ -3,95 +3,79 @@
 .component {
     padding: 50px;
 
-    .container {
-        width: $c-width;
-        margin: 0 auto;
+    h2 {
+        margin-bottom: 50px;
+        font-size: 40px;
         
-        h2 {
-            text-align: center;
-            margin-bottom: 50px;
-            font-size: 40px;
+        span {
+            font-weight: lighter;
+            color: $green;
+        }
+    }
+
+    .review {
+        .img-box {
+            height: 200px;
+            width: 30%;
+            padding: 10px;
             
-            span {
-                font-weight: lighter;
-                color: $green;
+            // avatar image decoration
+            #avatar {
+                height: calc(100% - 40px);
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 100;
+            }
+
+            #green-dots {
+                right: 30%;
+                bottom: 0;
+                z-index: 1;
+            }
+
+            #brown-dot {
+                height: 60px;
+                width: 60px;
+                top: 10px;
+                right: 50%;
+                background-color: #d2a98e;
+                z-index: 2;
             }
         }
 
-        .review {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        // text review 
+        .right-side {
+            margin-left: 30px;
 
-            .img-box {
-                position: relative;
-                height: 200px;
-                width: 30%;
-                padding: 10px;
+            p {
+                font-size: 24px;
+                line-height: 36px;
 
-                #avatar {
-                    height: calc(100% - 40px);
-                    border-radius: 50%;
-                    position: absolute;
-                    top: 20px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    z-index: 100;
+                &:nth-child(2) {
+                    font-size: 15px;
+                    margin-top: 20px;
                 }
 
-                #green-dots {
-                    position: absolute;
-                    right: 30%;
-                    bottom: 0;
-                    z-index: 1;
-                }
-
-                #brown-dot {
-                    height: 60px;
-                    width: 60px;
-                    position: absolute;
-                    top: 10px;
-                    right: 50%;
-                    background-color: #d2a98e;
-                    border-radius: 50%;
-                    z-index: 2;
-                }
-            }
-
-
-            .right-side {
-                margin-left: 30px;
-
-                p {
-                    font-size: 24px;
-                    line-height: 36px;
-
-                    &:nth-child(2) {
-                        font-size: 15px;
-                        margin-top: 20px;
-                    }
-
-                    &:last-child {
-                        font-size: 15px;
-                        color: #888;
-                    }
+                &:last-child {
+                    font-size: 15px;
+                    color: $grey-two;
                 }
             }
         }
+    }
 
-        .sponsor-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 40px;
+    // sponsors/client logos sizing 
+    .sponsor-container {
+        margin-top: 40px;
 
-            .sponsor {
-                width: calc(100% / 6);
-                height: 70px;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-                margin: 0 20px;
-            }
+        .sponsor {
+            width: calc(100% / 6);
+            height: 70px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0 20px;
         }
     }
 }
