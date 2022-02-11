@@ -17,8 +17,12 @@ nav {
             list-style: none;
 
             li {
-                color: $white;
                 margin-left: 10px;
+                
+                a {
+                    color: $white;
+                    text-decoration: none;
+                }
             }
         }
 

@@ -9,8 +9,8 @@
                         <li>{{number}}</li>
                         <li>{{email}}</li>
                         <li>
-                            <a v-for="(icon, index) in socialIcons" :key="index" href="#/">
-                                <i :class="icon"></i>
+                            <a v-for="(icon, index) in socialIcons" :key="index" :href="icon.link">
+                                <i :class="icon.icon"></i>
                             </a>
                         </li>
                     </ul>
@@ -23,8 +23,8 @@
                     <li class="section"><strong>Explore</strong>
                         <ul class="u_d-flex u_wrap explore">
                             <li v-for="(link, index) in exploreLinks" :key="index">
-                                <a href="#/">
-                                    {{link}}
+                                <a :href="link.link">
+                                    {{link.name}}
                                 </a>
                             </li>
                         </ul>
@@ -33,8 +33,8 @@
                     <li class="section"><strong>Information</strong>
                         <ul>
                             <li v-for="(link, index) in informationLinks" :key="index">
-                                <a href="#/">
-                                    {{link}}
+                                <a :href="link.link">
+                                    {{link.name}}
                                 </a>
                             </li>
                         </ul>

@@ -8,7 +8,9 @@
             <ul class="u_d-flex">
                 <li class="u_pointer" 
                     v-for="(link, index) in navList" :key="index">
-                    {{link}}
+                    <a :href="link.link">
+                        {{link.name}}
+                    </a>
                     <i class="fas fa-angle-down"></i>
                 </li>
             </ul>

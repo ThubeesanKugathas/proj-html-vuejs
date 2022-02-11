@@ -34,12 +34,30 @@ export default {
     return {
       // header data --------------------------------------------------------------------
       navbarList: [
-        'Home',
-        'Pages',
-        'Courses',
-        'Features',
-        'Blog',
-        'Shop',
+        {
+          name: 'Home',
+          link: '#/'
+        },
+        {
+          name: 'Pages',
+          link: '#/'
+        },
+        {
+          name: 'Courses',
+          link: '#/'
+        },
+        {
+          name: 'Features',
+          link: '#/'
+        },
+        {
+          name: 'Blog',
+          link: '#/'
+        },
+        {
+          name: 'Shop',
+          link: '#/'
+        },
       ],
       navbarLogo: 'light-logo',
       // footer data --------------------------------------------------------------------
@@ -49,24 +67,66 @@ export default {
         email: 'support@maxcoach.com'
       },
       socialIcons: [
-        'fab fa-facebook-square',
-        'fab fa-twitter',
-        'fab fa-instagram',
-        'fab fa-linkedin',
+        {
+          icon: 'fab fa-facebook-square',
+          link: '#/'
+        },
+        {
+          icon: 'fab fa-twitter',
+          link: '#/'
+        },
+        {
+          icon: 'fab fa-instagram',
+          link: '#/'
+        },
+        {
+          icon: 'fab fa-linkedin',
+          link: '#/'
+        },
       ],
       explore: [
-        'Start here',
-        'Success story',
-        'Blog',
-        'Courses',
-        'About us',
-        'Contact us'
+        {
+          name: 'Start here',
+          link: '#/',
+        },
+        {
+          name: 'Success story',
+          link: '#/',
+        },
+        {
+          name: 'Blog',
+          link: '#/',
+        },
+        {
+          name: 'Courses',
+          link: '#/',
+        },
+        {
+          name: 'About us',
+          link: '#/',
+        },
+        {
+          name: 'Contact us',
+          link: '#/',
+        },
       ],
       information: [
-        'Membership',
-        'Puchase guide',
-        'Privacy policy',
-        'Terms of services'
+        {
+          name: 'Membership',
+          link: '#/',
+        },
+        {
+          name: 'Puchase guide',
+          link: '#/',
+        },
+        {
+          name: 'Privacy policy',
+          link: '#/',
+        },
+        {
+          name: 'Terms of services',
+          link: '#/',
+        },
       ],
       // main data --------------------------------------------------------------------------
       // part one stats data
