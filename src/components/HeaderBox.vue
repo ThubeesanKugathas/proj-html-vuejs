@@ -27,6 +27,7 @@
             </div>
         </div>
 
+        <!-- position fixed icons -->
         <div class="u_d-flex u_position-fixed icon-fixed">
             <i class="u_pointer fas fa-ruler"></i>
             <i class="u_pointer far fa-life-ring"></i>

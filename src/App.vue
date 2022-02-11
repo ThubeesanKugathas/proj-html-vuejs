@@ -13,7 +13,8 @@
       :number="this.addressData.number" 
       :email="this.addressData.email"
       :exploreLinks="this.explore"
-      :informationLinks="this.information"/>
+      :informationLinks="this.information"
+      :socialIcons="socialIcons"/>
   </div>
 </template>
 
@@ -31,7 +32,7 @@ export default {
   },
   data() {
     return {
-      // header data
+      // header data --------------------------------------------------------------------
       navbarList: [
         'Home',
         'Pages',
@@ -41,12 +42,18 @@ export default {
         'Shop',
       ],
       navbarLogo: 'light-logo',
-      // footer data
+      // footer data --------------------------------------------------------------------
       addressData: {
         street: '382 NE 191st St # 87394 Miami, FL-33179-3899',
         number: '+1(305)547-9909(9am-5pm EST, Monday-Friday)',
         email: 'support@maxcoach.com'
       },
+      socialIcons: [
+        'fab fa-facebook-square',
+        'fab fa-twitter',
+        'fab fa-instagram',
+        'fab fa-linkedin',
+      ],
       explore: [
         'Start here',
         'Success story',
@@ -61,7 +68,7 @@ export default {
         'Privacy policy',
         'Terms of services'
       ],
-      // main data -------------------------------
+      // main data --------------------------------------------------------------------------
       // part one stats data
       stats: [
         {

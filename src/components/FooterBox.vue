@@ -9,17 +9,8 @@
                         <li>{{number}}</li>
                         <li>{{email}}</li>
                         <li>
-                            <a href="#/">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                            <a href="#/">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#/">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#/">
-                                <i class="fab fa-linkedin"></i>
+                            <a v-for="(icon, index) in socialIcons" :key="index" href="#/">
+                                <i :class="icon"></i>
                             </a>
                         </li>
                     </ul>
@@ -75,6 +66,7 @@ export default {
         email: String,
         exploreLinks: Array,
         informationLinks: Array,
+        socialIcons: Array,
     }
 }
 </script>
